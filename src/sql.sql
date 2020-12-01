@@ -45,12 +45,15 @@ create table customer
 
 create table oder
 (
-    id         int auto_increment not null,
-    idHome     int                not null,
-    idCusTomer int                not null,
-    constraint `oder_idHome` foreign key (idHome) references home (id),
-    constraint `oder_idCusTomer` foreign key (idCusTomer) references customer (id)
-)
+    id         int not null,
+    idHome     int  not null,
+    idCusTomer int             not null,
+    orderDate datetime default now(),
+    PRIMARY KEY (`idHome`,`idCusTomer`),
+    constraint `oder_idHome` foreign key (idHome) references `home` (id),
+    constraint `oder_idCusTomer` foreign key (idCusTomer) references `customer` (id)
+);
+
 
 
 

@@ -1240,72 +1240,77 @@
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="380" parent="347" name="oder_idCusTomer">
+    <column id="380" parent="347" name="orderDate">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+    </column>
+    <index id="381" parent="347" name="oder_idCusTomer">
       <ColNames>idCusTomer</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="381" parent="347" name="PRIMARY">
+    <key id="382" parent="347" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>idHome
 idCusTomer</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="382" parent="347" name="oder_idHome">
+    <foreign-key id="383" parent="347" name="oder_idHome">
       <ColNames>idHome</ColNames>
       <RefTableName>home</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="383" parent="347" name="oder_idCusTomer">
+    <foreign-key id="384" parent="347" name="oder_idCusTomer">
       <ColNames>idCusTomer</ColNames>
       <RefTableName>customer</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="384" parent="348" name="id">
+    <column id="385" parent="348" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="385" parent="348" name="idSpecies">
+    <column id="386" parent="348" name="idSpecies">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="386" parent="348" name="address">
+    <column id="387" parent="348" name="address">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="387" parent="348" name="rooms">
+    <column id="388" parent="348" name="rooms">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="388" parent="348" name="acreage">
+    <column id="389" parent="348" name="acreage">
       <Position>5</Position>
       <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="389" parent="348" name="gara">
+    <column id="390" parent="348" name="gara">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="390" parent="348" name="description">
+    <column id="391" parent="348" name="description">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="391" parent="348" name="villa_idSpecies">
+    <index id="392" parent="348" name="villa_idSpecies">
       <ColNames>idSpecies</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="392" parent="348" name="PRIMARY">
+    <key id="393" parent="348" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="393" parent="348" name="villa_idSpecies">
+    <foreign-key id="394" parent="348" name="villa_idSpecies">
       <ColNames>idSpecies</ColNames>
       <RefTableName>home</RefTableName>
       <RefColNames>id</RefColNames>

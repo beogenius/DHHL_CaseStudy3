@@ -26,4 +26,8 @@ public class Home {
     public void setIdSpecies(int idSpecies) {
         this.idSpecies = idSpecies;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> DuongMaster

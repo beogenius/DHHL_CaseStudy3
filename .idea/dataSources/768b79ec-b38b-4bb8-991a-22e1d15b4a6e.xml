@@ -1193,6 +1193,7 @@
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <index id="370" parent="346" name="oder_idHome">
       <ColNames>idHome</ColNames>
       <Type>btree</Type>
@@ -1202,61 +1203,123 @@
       <Type>btree</Type>
     </index>
     <foreign-key id="372" parent="346" name="oder_idHome">
+=======
+    <column id="380" parent="347" name="orderDate">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+    </column>
+    <index id="381" parent="347" name="oder_idCusTomer">
+      <ColNames>idCusTomer</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="382" parent="347" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idHome
+idCusTomer</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="383" parent="347" name="oder_idHome">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <ColNames>idHome</ColNames>
       <RefTableName>home</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <foreign-key id="373" parent="346" name="oder_idCusTomer">
+=======
+    <foreign-key id="384" parent="347" name="oder_idCusTomer">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <ColNames>idCusTomer</ColNames>
       <RefTableName>customer</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <column id="374" parent="347" name="id">
+=======
+    <column id="385" parent="348" name="id">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <column id="375" parent="347" name="idSpecies">
+=======
+    <column id="386" parent="348" name="idSpecies">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <column id="376" parent="347" name="address">
+=======
+    <column id="387" parent="348" name="address">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <column id="377" parent="347" name="rooms">
+=======
+    <column id="388" parent="348" name="rooms">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <column id="378" parent="347" name="acreage">
+=======
+    <column id="389" parent="348" name="acreage">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <Position>5</Position>
       <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <column id="379" parent="347" name="gara">
+=======
+    <column id="390" parent="348" name="gara">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <column id="380" parent="347" name="description">
+=======
+    <column id="391" parent="348" name="description">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <index id="381" parent="347" name="villa_idSpecies">
       <ColNames>idSpecies</ColNames>
       <Type>btree</Type>
     </index>
     <key id="382" parent="347" name="PRIMARY">
+=======
+    <index id="392" parent="348" name="villa_idSpecies">
+      <ColNames>idSpecies</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="393" parent="348" name="PRIMARY">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
+<<<<<<< HEAD:.idea/dataSources/768b79ec-b38b-4bb8-991a-22e1d15b4a6e.xml
     <foreign-key id="383" parent="347" name="villa_idSpecies">
+=======
+    <foreign-key id="394" parent="348" name="villa_idSpecies">
+>>>>>>> DuongMaster:.idea/dataSources/6c310ecd-15cb-4038-8ee1-aa7ba7d4fc12.xml
       <ColNames>idSpecies</ColNames>
       <RefTableName>home</RefTableName>
       <RefColNames>id</RefColNames>

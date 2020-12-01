@@ -53,6 +53,7 @@ create table customer
 
 create table order
 (
+<<<<<<< HEAD
 
     id         int not null,
     idHome     int not null,
@@ -61,6 +62,17 @@ create table order
     constraint `oder_idHome` foreign key (idHome) references home (id),
     constraint `oder_idCusTomer` foreign key (idCusTomer) references customer (id)
 )
+=======
+    id         int not null,
+    idHome     int  not null,
+    idCusTomer int             not null,
+    orderDate datetime default now(),
+    PRIMARY KEY (`idHome`,`idCusTomer`),
+    constraint `oder_idHome` foreign key (idHome) references `home` (id),
+    constraint `oder_idCusTomer` foreign key (idCusTomer) references `customer` (id)
+);
+
+>>>>>>> DuongMaster
 
 
 

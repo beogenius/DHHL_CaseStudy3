@@ -76,4 +76,8 @@ public class Villa {
     public void setDescription(String description) {
         this.description = description;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> DuongMaster

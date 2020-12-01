@@ -56,7 +56,11 @@ public class Apartment {
     }
 
     public double getAcreage() {
+<<<<<<< HEAD
         return    acreage;
+=======
+        return acreage;
+>>>>>>> DuongMaster
     }
 
     public void setAcreage(double acreage) {
@@ -78,4 +82,8 @@ public class Apartment {
     public void setDescription(String description) {
         this.description = description;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> DuongMaster

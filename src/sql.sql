@@ -6,17 +6,16 @@ create table home
 (
     id          int auto_increment primary key not null,
         idSpecies int not null
-#     address     varchar(255)                   not null,
-#     rooms       int                            not null,
-#     acreage     double                         not null,
-#     description varchar(255)                   not null
+
 );
 
 create table villa
 (
     id   int primary key auto_increment not null,
     idSpecies int not null ,
-
+    address     varchar(255)                   not null,
+    rooms       int                            not null,
+    acreage     double                         not null,
     gara int not null,
     description varchar(255)                   not null,
     constraint `villa_idSpecies` foreign key (idSpecies) references `home` ( id)

@@ -148,7 +148,7 @@
                     <a class="nav-link" href="about.jsp">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="property-grid.jsp">Property</a>
+                    <a class="nav-link" href="listSP.jsp">Property</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog-grid.jsp">Blog</a>
@@ -159,7 +159,7 @@
                         Pages
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="property-single.jsp">Property Single</a>
+                        <a class="dropdown-item" href="detailSP.jsp">Property Single</a>
                         <a class="dropdown-item" href="blog-single.jsp">Blog Single</a>
                         <a class="dropdown-item" href="agents-grid.jsp">Agents Grid</a>
                         <a class="dropdown-item" href="agent-single.jsp">Agent Single</a>
@@ -354,7 +354,7 @@
                         <h2 class="title-a">Latest Properties</h2>
                     </div>
                     <div class="title-link">
-                        <a href="property-grid.jsp">All Property
+                        <a href="listSP.jsp">All Property
                             <span class="ion-ios-arrow-forward"></span>
                         </a>
                     </div>
@@ -371,7 +371,7 @@
                         <div class="card-overlay-a-content">
                             <div class="card-header-a">
                                 <h2 class="card-title-a">
-                                    <a href="property-single.jsp">206 Mount
+                                    <a href="detailSP.jsp">206 Mount
                                         <br /> Olive Road Two</a>
                                 </h2>
                             </div>
@@ -418,7 +418,7 @@
                         <div class="card-overlay-a-content">
                             <div class="card-header-a">
                                 <h2 class="card-title-a">
-                                    <a href="property-single.jsp">157 West
+                                    <a href="detailSP.jsp">157 West
                                         <br /> Central Park</a>
                                 </h2>
                             </div>
@@ -426,7 +426,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>
@@ -465,7 +465,7 @@
                         <div class="card-overlay-a-content">
                             <div class="card-header-a">
                                 <h2 class="card-title-a">
-                                    <a href="property-single.jsp">245 Azabu
+                                    <a href="detailSP.jsp">245 Azabu
                                         <br /> Nishi Park let</a>
                                 </h2>
                             </div>
@@ -473,7 +473,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>
@@ -512,7 +512,7 @@
                         <div class="card-overlay-a-content">
                             <div class="card-header-a">
                                 <h2 class="card-title-a">
-                                    <a href="property-single.jsp">204 Montal
+                                    <a href="detailSP.jsp">204 Montal
                                         <br /> South Bela Two</a>
                                 </h2>
                             </div>
@@ -520,7 +520,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>

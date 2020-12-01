@@ -151,7 +151,7 @@
                     <a class="nav-link" href="about.jsp">Thông tin</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="property-grid.jsp">Sản phẩm</a>
+                    <a class="nav-link active" href="listSP.jsp">Sản phẩm</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog-grid.jsp">Blog</a>
@@ -162,7 +162,7 @@
                         Pages
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="property-single.jsp">Chi tiết sản phẩm</a>
+                        <a class="dropdown-item" href="detailSP.jsp">Chi tiết sản phẩm</a>
                         <a class="dropdown-item" href="blog-single.jsp">Blog</a>
                         <a class="dropdown-item" href="agents-grid.jsp">Các Đại Lý</a>
                         <a class="dropdown-item" href="agent-single.jsp">Chi tiết Đại Lý</a>
@@ -245,7 +245,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>
@@ -292,7 +292,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>
@@ -339,7 +339,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>
@@ -386,7 +386,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>
@@ -433,7 +433,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>
@@ -480,7 +480,7 @@
                                 <div class="price-box d-flex">
                                     <span class="price-a">rent | $ 12.000</span>
                                 </div>
-                                <a href="property-single.jsp" class="link-a">Click here to view
+                                <a href="detailSP.jsp" class="link-a">Click here to view
                                     <span class="ion-ios-arrow-forward"></span>
                                 </a>
                             </div>

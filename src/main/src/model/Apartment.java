@@ -35,7 +35,8 @@ public class Apartment {
 
 
     public void setIdSpecies(int  idSpecies) {
-        this.idSpecies = idSpecies;
+        this.idSpecies = idSpecies
+        ;
     }
 
     public String getAddress() {

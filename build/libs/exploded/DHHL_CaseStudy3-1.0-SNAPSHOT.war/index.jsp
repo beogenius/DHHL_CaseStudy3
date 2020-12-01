@@ -31,7 +31,7 @@
 
 <body>
 
-<div class="click-closed"></div>
+<%--<div class="click-closed"></div>--%>
 <!--/ Form Search Star /-->
 <div class="box-collapse">
     <div class="title-box-d">

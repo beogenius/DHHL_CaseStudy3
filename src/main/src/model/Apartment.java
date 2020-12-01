@@ -56,7 +56,7 @@ public class Apartment {
     }
 
     public double getAcreage() {
-        return acreage;
+        return    acreage;
     }
 
     public void setAcreage(double acreage) {

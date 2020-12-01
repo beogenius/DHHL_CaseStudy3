@@ -30,10 +30,11 @@ public class Apartment {
     }
 
     public int getIdSpecies() {
-        return idSpecies;
+        return idSpecies ;
     }
 
-    public void setIdSpecies(int idSpecies) {
+
+    public void setIdSpecies(int  idSpecies) {
         this.idSpecies = idSpecies;
     }
 

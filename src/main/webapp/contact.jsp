@@ -153,7 +153,7 @@
                     <a class="nav-link" href="about.jsp">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="property-grid.jsp">Property</a>
+                    <a class="nav-link" href="listSP.jsp">Property</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog-grid.jsp">Blog</a>
@@ -164,7 +164,7 @@
                         Pages
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="property-single.jsp">Property Single</a>
+                        <a class="dropdown-item" href="detailSP.jsp">Property Single</a>
                         <a class="dropdown-item" href="blog-single.jsp">Blog Single</a>
                         <a class="dropdown-item" href="agents-grid.jsp">Agents Grid</a>
                         <a class="dropdown-item" href="agent-single.jsp">Agent Single</a>

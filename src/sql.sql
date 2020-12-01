@@ -51,7 +51,7 @@ create table customer
 #     constraint `customer` foreign key (id) references `oder` (i)i
 );
 
-create table oder
+create table order
 (
 
     id         int not null,

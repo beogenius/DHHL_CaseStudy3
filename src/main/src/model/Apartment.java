@@ -9,7 +9,8 @@ public class Apartment {
     private int floors;
     private String description;
 
-    public Apartment(){}
+    public Apartment() {
+    }
 
     public Apartment(int id, int idSpecies, String address, int rooms, double acreage, int floors, String description) {
         this.id = id;
@@ -30,11 +31,11 @@ public class Apartment {
     }
 
     public int getIdSpecies() {
-        return idSpecies ;
+        return idSpecies;
     }
 
 
-    public void setIdSpecies(int  idSpecies) {
+    public void setIdSpecies(int idSpecies) {
         this.idSpecies = idSpecies
         ;
     }
@@ -56,11 +57,9 @@ public class Apartment {
     }
 
     public double getAcreage() {
-<<<<<<< HEAD
-        return    acreage;
-=======
+
         return acreage;
->>>>>>> DuongMaster
+
     }
 
     public void setAcreage(double acreage) {
@@ -82,8 +81,5 @@ public class Apartment {
     public void setDescription(String description) {
         this.description = description;
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> DuongMaster

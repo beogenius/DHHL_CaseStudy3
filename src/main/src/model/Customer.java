@@ -7,7 +7,8 @@ public class Customer {
     private String phone_number;
     private String email;
 
-    public Customer(){}
+    public Customer() {
+    }
 
     public Customer(int id, String name, String address, String phone_number, String email) {
         this.id = id;
@@ -56,8 +57,5 @@ public class Customer {
     public void setEmail(String email) {
         this.email = email;
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> DuongMaster

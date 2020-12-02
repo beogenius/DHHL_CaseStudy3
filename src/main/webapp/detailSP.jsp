@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>EstateAgency Bootstrap Template</title>
+    <title>Chi tiết sản phẩm</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -26,18 +26,14 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-      Theme Name: EstateAgency
-      Theme URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-      Author: BootstrapMade.com
-      License: https://bootstrapmade.com/license/
-    ======================================================= -->
+
 </head>
 
 <body>
 
 <div class="click-closed"></div>
-<!--/ Form Search Star /-->
+<!--/ Box tìm kiếm - Thay Thế bằng nút thêm sản phẩm ! /-->
+
 <div class="box-collapse">
     <div class="title-box-d">
         <h3 class="title-d">Search Property</h3>
@@ -128,7 +124,7 @@
         </form>
     </div>
 </div>
-<!--/ Form Search End /-->
+<!--/ Box tìm kiếm - Thay Thế bằng nút thêm sản phẩm ! - END /-->
 
 <!--/ Nav Star /-->
 <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
@@ -147,13 +143,13 @@
         <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.jsp">Home</a>
+                    <a class="nav-link" href="index.jsp">Trang Chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.jsp">About</a>
+                    <a class="nav-link" href="about.jsp">Thông tin</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="listSP.jsp">Property</a>
+                    <a class="nav-link" href="listSP.jsp">Sản phẩm</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog-grid.jsp">Blog</a>
@@ -161,17 +157,17 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
-                        Pages
+                        Trang
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item active" href="detailSP.jsp">Property Single</a>
-                        <a class="dropdown-item" href="blog-single.jsp">Blog Single</a>
-                        <a class="dropdown-item" href="agents-grid.jsp">Agents Grid</a>
-                        <a class="dropdown-item" href="agent-single.jsp">Agent Single</a>
+                        <a class="dropdown-item active" href="detailSP.jsp">Thông tin sản phẩm</a>
+                        <a class="dropdown-item" href="blog-single.jsp">Blog </a>
+                        <a class="dropdown-item" href="agents-grid.jsp">Danh Sách Đại Lý</a>
+                        <a class="dropdown-item" href="agent-single.jsp">Chi tiết Đại Lý</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.jsp">Contact</a>
+                    <a class="nav-link" href="contact.jsp">Liên Hệ</a>
                 </li>
             </ul>
         </div>
@@ -183,14 +179,14 @@
 </nav>
 <!--/ Nav End /-->
 
-<!--/ Intro Single star /-->
+<!--/ Nơi Đổ sản phẩm /-->
 <section class="intro-single">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-8">
                 <div class="title-single-box">
-                    <h1 class="title-single">304 Blaster Up</h1>
-                    <span class="color-text-a">Chicago, IL 606543</span>
+                    <h1 class="title-single">Nơi đổ list sản phẩm ra</h1>
+                    <span class="color-text-a">VN</span>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
@@ -219,6 +215,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <div id="property-single-carousel" class="owl-carousel owl-arrow gallery-property">
+
+                    <!--/ Nơi đổ ảnh của sản phẩm ra/-->
                     <div class="carousel-item-b">
                         <img src="img/slide-2.jpg" alt="">
                     </div>
@@ -228,16 +226,19 @@
                     <div class="carousel-item-b">
                         <img src="img/slide-1.jpg" alt="">
                     </div>
+                    <!--/ Nơi đổ ảnh của sản phẩm ra/-->
                 </div>
                 <div class="row justify-content-between">
                     <div class="col-md-5 col-lg-4">
                         <div class="property-price d-flex justify-content-center foo">
                             <div class="card-header-c d-flex">
                                 <div class="card-box-ico">
+                                    <!--/ Nơi đổ giá tiền của sản phẩm ra/-->
                                     <span class="ion-money">$</span>
                                 </div>
                                 <div class="card-title-c align-self-center">
                                     <h5 class="title-c">15000</h5>
+                                    <!--/ Nơi đổ giá tiền của sản phẩm ra/-->
                                 </div>
                             </div>
                         </div>
@@ -245,44 +246,44 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="title-box-d section-t4">
-                                        <h3 class="title-d">Quick Summary</h3>
+                                        <h3 class="title-d">Thông tin sản phẩm</h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="summary-list">
                                 <ul class="list">
                                     <li class="d-flex justify-content-between">
-                                        <strong>Property ID:</strong>
+                                        <strong>ID SẢN PHẨM:</strong>
                                         <span>1134</span>
                                     </li>
                                     <li class="d-flex justify-content-between">
-                                        <strong>Location:</strong>
+                                        <strong>ĐỊA ĐIỂM:</strong>
                                         <span>Chicago, IL 606543</span>
                                     </li>
                                     <li class="d-flex justify-content-between">
-                                        <strong>Property Type:</strong>
+                                        <strong>LOẠI NHÀ :</strong>
                                         <span>House</span>
                                     </li>
                                     <li class="d-flex justify-content-between">
-                                        <strong>Status:</strong>
+                                        <strong>Tình trạng:</strong>
                                         <span>Sale</span>
                                     </li>
                                     <li class="d-flex justify-content-between">
-                                        <strong>Area:</strong>
+                                        <strong>Diện tích:</strong>
                                         <span>340m
                         <sup>2</sup>
                       </span>
                                     </li>
                                     <li class="d-flex justify-content-between">
-                                        <strong>Beds:</strong>
+                                        <strong>Giường:</strong>
                                         <span>4</span>
                                     </li>
                                     <li class="d-flex justify-content-between">
-                                        <strong>Baths:</strong>
+                                        <strong>Phòng Tắm:</strong>
                                         <span>2</span>
                                     </li>
                                     <li class="d-flex justify-content-between">
-                                        <strong>Garage:</strong>
+                                        <strong>Gara:</strong>
                                         <span>1</span>
                                     </li>
                                 </ul>
@@ -293,28 +294,22 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="title-box-d">
-                                    <h3 class="title-d">Property Description</h3>
+                                    <h3 class="title-d">Miêu tả sản phẩm</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="property-description">
                             <p class="description color-text-a">
-                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                                neque, auctor sit amet
-                                aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta.
-                                Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt
-                                nibh pulvinar quam id dui posuere blandit.
+                                Nơi đổ ra miêu tả sản phẩm ************************************
                             </p>
                             <p class="description color-text-a no-margin">
-                                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget
-                                malesuada. Quisque velit nisi,
-                                pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+                                Nơi đổ ra miêu tả sản phẩm ************************************
                             </p>
                         </div>
                         <div class="row section-t3">
                             <div class="col-sm-12">
                                 <div class="title-box-d">
-                                    <h3 class="title-d">Amenities</h3>
+                                    <h3 class="title-d">Các tiện ích</h3>
                                 </div>
                             </div>
                         </div>
@@ -367,7 +362,7 @@
                 <div class="row section-t3">
                     <div class="col-sm-12">
                         <div class="title-box-d">
-                            <h3 class="title-d">Contact Agent</h3>
+                            <h3 class="title-d">Tên người SALE</h3>
                         </div>
                     </div>
                 </div>
@@ -377,11 +372,9 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="property-agent">
-                            <h4 class="title-agent">Anabella Geller</h4>
+                            <h4 class="title-agent">HO DUC HAI</h4>
                             <p class="color-text-a">
-                                Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-                                dui. Quisque velit nisi,
-                                pretium ut lacinia in, elementum id enim.
+                                MIÊU TẢ NHÂN VIÊN SALE *********************************
                             </p>
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between">
@@ -475,20 +468,19 @@
             <div class="col-sm-12 col-md-4">
                 <div class="widget-a">
                     <div class="w-header-a">
-                        <h3 class="w-title-a text-brand">EstateAgency</h3>
+                        <h3 class="w-title-a text-brand">DHHL Holdings</h3>
                     </div>
                     <div class="w-body-a">
                         <p class="w-text-a color-text-a">
-                            Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
-                            sed aute irure.
+                            Công Ty Bất Động Sản DHHL
                         </p>
                     </div>
                     <div class="w-footer-a">
                         <ul class="list-unstyled">
                             <li class="color-a">
-                                <span class="color-text-a">Phone .</span> contact@example.com</li>
+                                <span class="color-text-a">Phone .</span> DHHL-Holdings@gmail.com</li>
                             <li class="color-a">
-                                <span class="color-text-a">Email .</span> +54 356 945234</li>
+                                <span class="color-text-a">Email .</span> +12 34 56789</li>
                         </ul>
                     </div>
                 </div>
@@ -496,28 +488,29 @@
             <div class="col-sm-12 col-md-4 section-md-t3">
                 <div class="widget-a">
                     <div class="w-header-a">
-                        <h3 class="w-title-a text-brand">The Company</h3>
+                        <h3 class="w-title-a text-brand">DHHL Holdings</h3>
                     </div>
                     <div class="w-body-a">
                         <div class="w-body-a">
                             <ul class="list-unstyled">
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Site Map</a>
+                                    <i class="fa fa-angle-right"></i> <a href="#">Địa Chỉ</a>
                                 </li>
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Legal</a>
+                                    <i class="fa fa-angle-right"></i> <a href="#">Pháp Lý</a>
                                 </li>
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Agent Admin</a>
+                                    <i class="fa fa-angle-right"></i> <a href="#">Chính sách đại lý</a>
                                 </li>
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Careers</a>
+                                    <i class="fa fa-angle-right"></i> <a href="#">Chặng đường phát triển</a>
                                 </li>
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Affiliate</a>
+                                    <i class="fa fa-angle-right"></i> <a href="#">Chi Nhánh</a>
                                 </li>
                                 <li class="item-list-a">
-                                    <i class="fa fa-angle-right"></i> <a href="#">Privacy Policy</a>
+                                    <i class="fa fa-angle-right"></i> <a href="#">
+                                    Chính sách bảo mật</a>
                                 </li>
                             </ul>
                         </div>
@@ -527,7 +520,7 @@
             <div class="col-sm-12 col-md-4 section-md-t3">
                 <div class="widget-a">
                     <div class="w-header-a">
-                        <h3 class="w-title-a text-brand">International sites</h3>
+                        <h3 class="w-title-a text-brand">Trang web quốc tế</h3>
                     </div>
                     <div class="w-body-a">
                         <ul class="list-unstyled">
@@ -563,19 +556,19 @@
                 <nav class="nav-footer">
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a href="#">Home</a>
+                            <a href="/index.jsp">Trang Chủ</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">About</a>
+                            <a href="#">Thông tin</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">Property</a>
+                            <a href="#">Sản phẩm</a>
                         </li>
                         <li class="list-inline-item">
                             <a href="#">Blog</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">Contact</a>
+                            <a href="#">Liên Hệ</a>
                         </li>
                     </ul>
                 </nav>
@@ -611,7 +604,7 @@
                 <div class="copyright-footer">
                     <p class="copyright color-text-a">
                         &copy; Copyright
-                        <span class="color-a">EstateAgency</span> All Rights Reserved.
+                        <span class="color-a">DHHL-Holdings</span> All Rights Reserved.
                     </p>
                 </div>
                 <div class="credits">
@@ -621,7 +614,7 @@
                       Licensing information: https://bootstrapmade.com/license/
                       Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
                     -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    Designed by <a href="https://bootstrapmade.com/">DHHL-Holdings</a>
                 </div>
             </div>
         </div>
